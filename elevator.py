@@ -18,11 +18,11 @@ def compute(l,r,v):
     print "compute",l,r,v
 # Lets say people move are gaussain
 # min when someones leaves
-    #outcome_time=np.random.normal(l*60,v,PEOPLES_IN_BUILDING)
-    outcome_time=np.random.uniform(l*60,r*60,PEOPLES_IN_BUILDING)
+    outcome_time=np.random.normal(l*60,v,PEOPLES_IN_BUILDING)
+    #outcome_time=np.random.uniform(l*60,r*60,PEOPLES_IN_BUILDING)
 # min when someones come back
-    #income_time=np.random.normal(r*60,v,PEOPLES_IN_BUILDING)
-    income_time=np.random.uniform(l*60,r*60,PEOPLES_IN_BUILDING)
+    income_time=np.random.normal(r*60,v,PEOPLES_IN_BUILDING)
+    #income_time=np.random.uniform(l*60,r*60,PEOPLES_IN_BUILDING)
 
 # now fille the minute array with 
 # the move
